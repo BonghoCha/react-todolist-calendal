@@ -1,10 +1,10 @@
 import React from 'react';
+import TodoTemplate from './components/TodoTemplate';
+import Form from './components/Form';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+   <TodoTemplate form={<Form/>}></TodoTemplate>
   );
 }
 
